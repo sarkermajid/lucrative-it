@@ -1,0 +1,382 @@
+/* Responsive CSS
+=====================================================================*/
+
+@media only screen and (max-width: 991px)  {
+
+
+ 
+ }
+
+
+@media only screen and (min-width: 991px) and (max-width: 1400px) {
+ 
+}
+
+@media only screen and (max-width: 992px) {		}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+}
+
+@media (max-width: 319px) {
+
+}
+
+@media only screen and (max-width: 480px){
+
+			}	 
+
+@media only screen and (min-width: 480px) {
+		   
+	}
+	
+	
+@media (min-width: 767px) {
+    .account-part .bottom-top, .account-part .bottom-bottom{
+		float:right;
+	}
+	.directory-search{
+		margin-bottom:20px;
+	}														 
+	.directory-search .commmon{
+		background: #006633;
+		text-align: center;
+		color: #ffffff;
+		font-size: 18px;
+		padding:15px 0;
+		border-radius:5px;
+	}
+	.classified-search-section .commmon a, .classified-search-section .commmon i{
+		color:#FEB200;
+	}
+
+	.catloc-entry .common{
+		background: #006633;
+		text-align: center;
+		color: #ffffff;
+		font-size: 18px;
+		padding:15px 0;
+		border-radius:5px;
+	}
+	.common-update{
+		background: #FFC90E;
+		text-align: center;
+		color: #000000;
+		font-size: 18px;
+		padding:15px 0;
+		border-radius:5px;
+	}
+	.catloc-entry .common a, .catloc-entry .common i{
+		color:#FEB200;
+	}														 
+															 
+	.classified-search-section{
+		overflow:hidden;
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+
+	.angle-up{
+		padding:10px;
+	}
+	.angle-up i{
+		font-size:20px;
+		color:#ffffff;
+		cursor:pointer;
+	}
+	.catsub-search{
+		position:relative;
+	}
+
+	.location-serach, .catsub-search, .ads-search{
+		background: #006633;
+		text-align: center;
+		color: #ffffff;
+		font-size: 18px;
+		padding: 15px 0;
+		border-radius: 5px;
+	}
+	.ads-search{
+		padding: 7px 0;
+	}
+	.ads-search input, .ads-search button{
+		width:inherit;
+		display:inline;
+	}
+	.ads-search input{
+		width: 250px;
+		float: left;
+		margin-left: 10px;
+	}
+	.location-serach a, .location-serach i, .catsub-search a, .catsub-search i{
+        color:#FEB200;
+	}
+	.modal-dialog{width:550px !important}
+	
+	.news-detail{
+		border: 1px solid #e7e7e7;
+	}
+		
+}
+				
+@media (max-width: 767px) {
+	.header .navbar-brand{
+		padding: 3px 15px;
+	}
+	.header .navbar-toggle{
+		margin-top:15px;
+	}
+	.ads-mobile-center{
+		width: 186px;
+        margin: 0 auto;
+	}
+	.ads-mobile-center.dir{
+		width: 210px;
+        margin: 0 auto;
+	}
+	.login-left{
+		border-right:none;
+	}
+	
+	.footer h2{
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:0;
+	}
+	.navbar-header {min-height: 65px;}
+	.search-mobile .select2-container{width:50% !important;float:left;min-width: inherit !important; border-right: 1px solid;}
+	.bottom-top .navbar-nav>li {
+		float: left;
+		}
+	.navbar-right {margin-right: 95px;}
+	.logo-title img{margin-top:2px  !important}
+	.navbar-nav > li > a {padding: 3px 10px;}
+	.col-md-8.news_tab{padding-left:0;padding-right:0}
+	.news_padding  .col-md-8{padding-left:0;padding-right:0;margin-top:20px}
+	.search-row-wrapper{padding-top:0}
+	.mobile-keyword .form-control{width:49%;float:left;margin-right:2px}
+	.mobile-location .form-control{width:80%;float:left}
+	.mobile-location  .search_form{width:20%;float:left}
+	.mobile-logo{text-align:center}
+	.mobile-logo img{width:80%}
+	.mobile-log-reg.job{
+		width: 170px;
+        margin: 0 auto;
+	}	
+	.account-part .bottom-top, .account-part .bottom-bottom{
+		text-align:center;
+	}	
+	.tab-filter .select2-container{
+		min-width:100px;
+	}
+	.location-serach{
+		background:#009877;
+		margin-left:10px;
+		margin-right:10px;
+		padding-bottom: 5px;
+	}
+	.catsub-search{
+		background:#009877;
+		margin-left:10px;
+		margin-right:10px;
+		padding-bottom: 5px;
+	}
+	.ads-search{
+		padding-left:10px;
+		padding-right:10px;
+		margin-bottom:10px;
+	}
+	.submit-button{
+		padding-left:10px;
+		padding-right:10px;
+		margin-bottom:10px;
+	}
+	.ads-search{
+		padding-top:10px;
+	}
+	.search-bar{
+		position:relative;
+	}
+	.search-bar .submit-button{
+		position: absolute;
+		top: 10px;
+		z-index: 999;
+		right: 0;
+	}
+	.header-2, .signout{
+		text-align:center;
+	}
+	.account-header ul li {
+		display: inline-block;
+		padding: 10px 7px;
+	}
+	.account-header .header-2 ul li {
+		display: inline-block;
+		padding: 0px 6px;
+	}
+	.account-left-side{
+		margin-left:10px;
+		margin-right:10px;
+	}
+	.account-left-side ul li a:hover{
+		background:inherit;
+	}
+	.open-close{
+		padding-top:10px;
+	}
+	.login-left{
+		border-right:none;
+		margin-bottom:20px;
+	}
+	.classified-search-section .locationicon a{
+		padding-top: 6px;
+		font-size: 16px;
+		padding-left: 35px;
+		display: inline-block;
+		color: #ffffff;
+	}
+	.catsub-search{
+		position:relative;
+	}
+	.catsub-search .tags{
+		position:absolute;
+		top:13px;
+	}
+	.sidenav {
+		height: 100%;   
+		position: fixed;
+		width:0;
+		z-index: 1;
+		top: 165px;
+        left: 14px;
+		background-color: #111;
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+	.sidenav .closebtn {
+		position: absolute;
+		top: 20px;
+        right: 40px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+	.modal-dialog {
+		width: 93%;
+	}
+	.news-detail {
+		border: none;
+	}
+}
+
+
+	
+.account-part .bottom-bottom a{
+	color:#FEB200;
+}
+.account-part .bottom-bottom ul li, .account-part .bottom-top ul li{
+	display:inline;
+}
+.jobboard  .account-part .bottom-bottom ul li, .account-part .bottom-top ul li.login-right{
+	display:block;
+}
+.account-part .bottom-top ul li.login-right a.upload_cv{
+	color:#fff;
+}
+.login-section{
+	margin-bottom:20px;
+}
+.facebook-login{
+	width:100%;
+}
+.login-section h2{
+	padding-top:20px;
+	margin-bottom:20px;
+}
+.login-section .panel-body{
+	padding-top:0;
+}
+.login-left{
+	border-right:1px solid #000000;
+}	
+.dropdown-menu.user-menu  li a{
+	width:100%;
+}
+.header-bottom  .bottom-top a{
+	display:inline-block;
+	font-size:16px;
+	padding:8px 5px 10px 5px
+}
+.dropdown-menu{
+	padding-top:0;
+	margin-top:9px;
+}
+.all-service li i{
+	margin-right:10px;
+	font-size:56px;
+	color:#74C29B;
+	padding:5px;
+    float:left;	
+}
+.all-service li:first-child{
+	padding-left:10px;
+}
+
+.login-section .login-box-btm {
+    margin-bottom: 0px;
+}
+.all-service li:nth-child(2){
+	padding-left:10px;
+}
+.btn-signup{
+	background-color:#feb200;
+	color:#000000;
+}
+#loginBtn{
+	background-color:#006633;
+}
+
+.all-service li:first-child(2), .all-service li:nth-child(2), .all-service li:nth-child(3){
+	
+}
+.parent-category h2{
+	margin-bottom:0;
+}
+.parent-category img{
+	margin-right:10px;
+	margin-top:5px;
+}
+
+
+
+.all-service li span{
+
+    display: block;
+    height: 72px;
+    width: 72px;
+    float: left;
+	margin-right:20px;
+}
+.all-service li{
+	padding:20px;
+	font-size:16px;
+	clear:both;
+}
+.all-service li p{
+	padding-top:20px;
+	line-height:27px;
+}
+#wrapper .header-bottom {
+    padding-bottom: 10px;
+}
+.navbar-header .navbar-brand{
+    padding: 10px 5px;
+}
+
+
+
+
+						

@@ -1,0 +1,443 @@
+/* here you can put your own css to customize and override the theme */
+img{
+    max-width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+.package{
+         padding-right: 6px;
+}
+.package h2{		
+      display: inline-block;
+}
+
+.package-edit h3 span{
+	font-size: 18px;
+    font-style: normal;
+}
+.button{
+	float: right;
+    margin-right: 10px;
+	background:#E84D1C;
+	padding:10px;
+	color: #fff;
+    font-size: 16px;
+    padding: 8px 18px;
+    white-space: nowrap;
+    text-decoration: none;
+    border: solid 1px #fff;
+}
+.carousel-slider .carousel-item-twelve{
+	background: url(../../../assets/pages/img/frontend-slider/bg11.jpg);
+    background-size: cover;
+    background-position: center center;
+	opacity:1;
+}
+.font-style{
+    left: 10%;
+}
+.font-style  h2{
+    font-family: Montserrat;
+    color: black;
+}
+.carousel-slider .carousel-title-v6{
+       font-family: Montserrat;	
+        color: black;
+        border-radius: 5px;
+}
+.carousel-slider .carousel-title-v8{
+	color:red;	
+}
+.carousel-slider .carousel-title-v5{
+    
+    color: black;
+    border-radius: 5px;
+}
+.btn-transparent{
+	float:right;
+}
+.carousel-slider .carousel-position-six{
+    max-width: 605px;
+    padding: 39px 120px 40px 39px;
+    border-radius: 3px;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+}
+.hajj-pack{
+	border:1px solid #e9e9e9;
+        border-radius:5px !important;
+	background:white;
+        margin: 20px -10px;
+    padding: 10px;
+    
+}	 
+.hajj-pack img{
+    padding: 10px;
+}	
+.package-dlt a{
+	text-decoration:none;
+	font-size:20px;
+	
+}
+.pack-content{
+	padding:10px;
+}
+.pack-content > h2 >a{
+	color:cadetblue;
+	font-weight: bold;
+	font-size:27px;
+}
+.pacoet{
+	    padding: 10px;
+}
+.pack-footer{	
+	    padding: 15px;
+	    text-align: center;
+}			
+.service-box-v1 {
+    
+    border: 1px solid #e9e9e9;
+    border-radius: 3px !important; 
+    padding: 22px;
+}
+.service-box-v1 i{
+    padding: 30px
+}
+
+
+.font-style{background: rgba(255, 255, 255, 0.85);}
+
+.radio-inline{
+    padding-left: 0;
+}
+.maharram-none{
+    display: none;
+}
+.text-limit{
+    height: 91px;
+    overflow: hidden;
+}
+.service-image span{
+    padding-top: 32px;
+    display: inline-block;
+    padding-bottom: 31px;
+}
+.service-image i{
+    font-size: 56px;
+}
+.service-box-v1 a{
+    color:#ffffff;
+}
+
+/*hajj package and feature*/
+
+.funkyradio div {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+}
+.deatil{
+    position: absolute;
+    top: 11px;
+    right: 10px;
+}
+
+.funkyradio label {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-weight: normal;
+}
+
+.funkyradio input[type="radio"]:empty,
+.funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+
+
+
+.funkyradio input[type="radio"]:empty ~ label,
+.funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    padding-left: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label:before,
+.funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+
+.funkyradio input[type="radio"]:checked ~ label,
+.funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+}
+
+.funkyradio input[type="radio"]:checked ~ label:before,
+.funkyradio input[type="checkbox"]:checked ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+}
+
+.funkyradio input[type="radio"]:focus ~ label:before,
+.funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+
+.funkyradio-default input[type="radio"]:checked ~ label:before,
+.funkyradio-default input[type="checkbox"]:checked ~ label:before {
+    color: #333;
+    background-color: #ccc;
+}
+
+.funkyradio-primary input[type="radio"]:checked ~ label:before,
+.funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #337ab7;
+}
+
+.funkyradio-success input[type="radio"]:checked ~ label:before,
+.funkyradio-success input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.funkyradio-danger input[type="radio"]:checked ~ label:before,
+.funkyradio-danger input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.funkyradio-warning input[type="radio"]:checked ~ label:before,
+.funkyradio-warning input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.funkyradio-info input[type="radio"]:checked ~ label:before,
+.funkyradio-info input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5bc0de;
+}
+.text-warning {
+    color: #ffc107!important;
+}
+.selected-pf .panel-body{
+    padding:0;
+}
+.selected-pf h3{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.content-page h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.selected-feature, .selected-package{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+}
+.selected-feature a.remove{
+    position: absolute;
+    top: 0;
+    right:5px ;
+}
+.selected-package a.remove{
+    position: absolute;
+    top: 0;
+    right:5px;
+}
+.selected-feature p, .selected-package p{
+    margin-bottom: 10px;
+}
+
+
+    /*menu style*/
+
+.ic-nav{
+    background-color: #219C05;
+}
+.ic-nav ul{
+    padding: 0;
+}
+nav {
+    background-color:  #219C05;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    display: table;
+    width: 100%;
+}
+
+nav ul li a {
+    color:  #fff;
+    display:  block;
+    padding: 18px 15px;
+    position:  relative;
+    z-index:  1;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+nav ul li {
+    display:  inline-block;
+    position:  relative;
+    float:  left;
+}
+nav ul li a:hover {
+    color:  #fff;
+}
+nav ul li a:after,
+nav ul li.active a:after,
+nav ul li.ic-reg-btn a:after {
+    position:  absolute;
+    content:  "";
+    right:  0;
+    top: 0;
+    left: auto;
+    height: 100%;
+    width:  0;
+    background-color:  #0e99d5;
+    transition:  all 0.4s;
+    z-index:  -1;
+}
+nav ul li a:hover:after,
+nav ul li.active>a:after,
+nav ul li.ic-reg-btn a:after {
+    width:  100%;
+    right: auto;
+    left: 0;
+}
+/*dropdown menu style*/
+
+/*dropdwon menu style*/
+nav ul li>ul {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    min-width: 250px;
+    z-index: 3;
+    transition: all 0.4s;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: center top 0;
+    background-color: #219C05;
+    box-shadow: 4px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+nav ul li>ul li {
+    display:  block;
+    width:  100%;
+    border-bottom:  1px solid #262f84;
+}
+nav ul li>ul li a {
+    display: block;
+}
+nav ul li>ul li:last-child {
+    border-bottom: none;
+}
+nav ul li:hover>ul {
+    visibility: visible;
+    transform: scaleY(1);
+}
+nav ul li>ul li>ul {
+    position: absolute;
+    left:  250px;
+    background: #f2f2f2;
+    min-width:  250px;
+    transform-origin:  center left 0;
+    transform:  scaleX(0);
+    visibility:  hidden;
+    transition:  all 0.4s;
+    top: 0;
+    background-color: #384193;
+    box-shadow: 4px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+nav ul li>ul li:hover>ul {
+    visibility:  visible;
+    transform:  scaleX(1);
+}
+.breadcrumb{
+    margin-top: 22px;
+}
+
+.page-slider {
+     margin-top: 0px;
+}
+
+.viewport {
+    width: 355px;
+    height: 330px;
+    border: 1px solid #555;
+    position: relative;
+    margin: 1.5em auto 0;
+    border-radius: .2em;
+    overflow: hidden;
+    background:green;
+
+}
+.viewport div.cont {
+    position: relative;
+    width: 100%;
+    height: 297px;
+    background: white;
+}
+.login-form{
+    width: 344px;
+    padding-top: 5px;
+}
+.create-account{
+    padding-top: 39px;
+}
+
+.create-account h4{
+    color:#ffffff;
+}
+.create-account p a{
+    color:green;
+    background-color: #fff;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
